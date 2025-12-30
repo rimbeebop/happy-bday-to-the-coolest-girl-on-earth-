@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  background: #f4b6c2;
+  font-family: "Courier New", monospace;
+}
+
+#lock-screen {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lock {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+#letter-screen {
+  display: none;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.paper {
+  width: 85%;
+  max-width: 400px;
+  height: 80%;
+  background-image: url("https://img.sanishtech.com/u/9bc0bbac1410f73a8e679c5bf0b2d6b1.png");
+  background-size: cover;
+  background-position: center;
+  padding: 40px 25px;
+  box-sizing: border-box;
+}
+
+.paper p {
+  font-size: 16px;
+  line-height: 1.6;
+}

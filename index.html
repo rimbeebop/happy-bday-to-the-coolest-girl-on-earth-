@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>💗</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="lock-screen">
+  <img src="https://img.sanishtech.com/u/c31eb859663022fa207a9d063e031579.png" class="lock">
+  <input type="password" id="password" placeholder="password">
+  <button onclick="check()">open</button>
+</div>
+
+<div id="letter-screen">
+  <div class="paper">
+    <p>
+      HAPPY BDAY TO THE COOLEST GIRL ON EARTH<br><br>
+      I'm glad we are experiencing this life together. <br><br>
+      LOVE YA XX
+    </p>
+  </div>
+    <img src="https://i.pinimg.com/originals/29/aa/41/29aa4124a3a4d698f4264ed5e066c3e0.gif" class="gif">
+</div>
+
+<script>
+function check() {
+  if (document.getElementById("password").value === "221025") {
+    document.getElementById("lock-screen").style.display = "none";
+    document.getElementById("letter-screen").style.display = "flex";
+  } else {
+    alert("u dont remember BROCHACHO? TT");
+  }
+}
+</script>
+
+</body>
+</html>
